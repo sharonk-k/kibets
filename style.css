@@ -1,0 +1,271 @@
+/* Reset default styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: lavenderblush;
+  font-family: Times new roman, sans-serif;
+
+
+}
+  body{
+  background-image: url("image/6\ Science-Backed\ Ways\ to\ Find\ Motivation.png");
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  color: royalblue;
+  padding: 20px;
+}
+header h1{
+  background-color: skyblue;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rosybrown;
+  text-decoration: none;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: darkblue;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.header-text{
+  margin-top: 10%;
+  font-size: 30px;
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+
+}
+.header-text h1 span{
+color: cadetblue;
+}
+.header-text p span{
+color: cadetblue;
+}
+#about{
+padding: 40px;
+color: black;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1{flex-basis: 40%;
+}
+.about-col-1 img{
+  width: 80%;
+  height: 90%;
+  border-left-width: 20;
+  border-radius: 15px;
+}
+.about-col-2{
+  flex-basis: 60%;
+}
+.subtitle{
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(16, 2, 66);
+
+}
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+
+}
+.tab-links{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  bottom: 8px;
+transition: 0.5%;
+}
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(16, 119, 114);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+
+}
+.tab-links.active-link:after{
+  width: 50%;
+}
+.tab-contents ul li{
+list-style: none;
+margin: 10px 0;
+}
+.tab-contents ul li span{
+  color: palevioletred;
+  font-size: 14px;
+}
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
+}
+#services{
+  padding: 30px 0;
+}
+.services-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.services-list div{
+  background: plum;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-right: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+.services-list div i{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.services-list div h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+.services-list div{
+  text-decoration: none;
+  color: floralwhite;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+
+}
+.services-list div:hover{
+background: palevioletred;
+transform: translateY(-10px);
+
+
+}
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right{
+  flex-basis: 60%;
+}
+.contact-left p{
+  margin-top: 30px;
+}
+
+/* css fro small screens  */
+nav .fas{
+  display: none;
+}
+nav .fas{
+  display: block;
+  font-size: 25px;
+}
+nav ul{
+  background: firebrick;
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 50px;
+  z-index: 2;
+}
+nav ul li{
+  display: block;
+  margin: 25px;
+}
+nav ul .fas{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: lightblue;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+  

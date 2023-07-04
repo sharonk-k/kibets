@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/640c826cfd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+    
+        <ul class="nav" id="sidemenu">
+          <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a>
+            </li>
+            <li class="nav-item"><a href="#">Experience</a></li>
+            <li class="nav-item"><a href="#">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="#">Contact</a>
+            </li>
+            </ul>
+        </nav>
+      </div>
+  </div>
+      <div class="header-text">
+      <p>Developer & UI/UX Designer</p>
+      <h1>I'm <span>Sharon Kibet.<br></span></h1>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/22.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="subtitle">About Me</h1>
+              <p>I'm a sofware developer and UI/UX Designer based in Nairobi,KENYA.Passionate individual with proven success
+of evaluating requirements for software
+development projects to design innovative
+solutions. Out-of-the-box thinker and problem
+solver dedicated to improving performance of a system.
+I work well in teams and consistently delivers
+to deadlines.</p></div>
+        </div>
+      </div>
+    </div>
+<div class="tab-titles">
+  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+  <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+  <p class="tab-links"  onclick="opentab('education')">Education</p>
+</div>
+      <div class="tab-contents active-tab" id="education">
+        <ul>
+          <li><span>2023 - current</span><br>BSC Computer science at South Eastern Kenya University</li>
+          <li><span>2021-2022</span><br> Cloud Computing at Huawei</li>
+          <li><span>2022-2023</span><br>Software Development Internship at African Banking & Corporation ltd.</li>
+
+          </ul>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+          <li><span>PHP frameworks</span><br>Laravel</li>
+          <li><span>Cloud Computing</span><br></li>
+          <li><span>Front-end development</span><br></li>
+          <li><span>Javascript Frameworks</span>Node.js</li>
+
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>Web Development</span><br>I build android apps.I create and maintain websites. I am responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. I also create content for the site and improve the site's features.I contribute in testing applications and interfaces, working with other team members to create website layouts</li>
+          <li><span>Cloud Computing</span><br>Help client devices to access data and cloud applications over the internet from remote physical servers.</li>
+          <li><span>Network set up and administration</span><br>I perform network configuration which helps network administrators to configure new devices for deployment.I also perform a thorough root cause analysis, to pinpoint the true cause of a problem,troubleshoot when a network fails or performance problem arises.</li>
+          <li><span>Graphic Design </span><br>Develop layout and production design for applications e.g advertisements, brochures.</li>
+
+           </ul>
+        </div>
+        <!-- services -->
+        <div id="services">
+          <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+        <div>
+          <i class="fa-brands fa-rebel"></i>
+          <h2>Web Design</h2>
+          <p>I create visual concepts, using computer software, to communicate ideas that inspire, inform, and captivate consumers. I develop the overall layout and production design for applications such as advertisements, brochures, magazines, and reports.</p>
+          <a href="a">Learn more</a>
+        </div>
+           <div>
+          <i class="fa-brands fa-sketch"></i>
+        <h2>UX/UI design</h2>
+        <p>I create user-friendly and visually appealing websites that provide seamless navigation, clear information architecture, and engaging interactions.
+          In relation to mobile applications, I create intuitive interfaces, optimizing touch interactions, and ensuring efficient workflows to enhance usability and user satisfaction.
+        </p>
+        <a href="a">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-cloudflare"></i>
+          <h2>Cloud Computing</h2>
+          <p>I help client devices to access data and cloud applications over the internet from remote physical servers, databases and computers.</p>
+          <a href="a">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-quinscape"></i>
+          <h2>Web Scrapping</h2>
+          <p>Parsing the HTML code to extract the relevant data by using libraries or frameworks that can process and navigate HTML, such as BeautifulSoup for Python or Cheerio for JavaScript.
+            I then dentify and extract the desired data by locating specific elements, such as tags, classes, or IDs within the HTML structure.
+          </p>
+          <a href="a">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i>sharonkibet111@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i>+254768704018</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/shar.onn_k/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://github.com/sharonk-k"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Sharon.Made with.<i class="fas fa-heart"></i>by Codecamp</p>
+    </div>
+  </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname){
+            for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+          }
+          
+          </script>
+</body>
+</html>
